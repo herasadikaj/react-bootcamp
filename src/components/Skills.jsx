@@ -6,12 +6,12 @@ const Skills = () => {
             <h2>Skills</h2>
             <div className="progress-bar-container">
                 <div className="progress-bar">
-                    <div className="progress" style={{ width: '80%' }}>
+                    <div className="progress" style={{ width: '40%' }}>
                         <span>React</span>
                     </div>
                 </div>
                 <div className="progress-bar">
-                    <div className="progress" style={{ width: '70%' }}>
+                    <div className="progress" style={{ width: '40%' }}>
                         <span>Next</span>
                     </div>
                 </div>

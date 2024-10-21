@@ -7,7 +7,6 @@ function App() {
   return (
     <Router>
         <Routes>
-         
           <Route path="*" exact element={<Website />} />
           </Routes>
           </Router>

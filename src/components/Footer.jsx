@@ -1,12 +1,11 @@
 import React from "react";
 import "./website.css";
-const Footer = () => {
 
-  const current = new Date().getFullYear();
-  document.getElementById('current-year').textContent = current;
-  
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer id="copyright-year">
+    <footer>
       <div className="social-links">
         <a href="https://www.linkedin.com/in/hera-sadikaj-832136245/" target="_blank" rel="noopener noreferrer">
           <img
@@ -23,9 +22,9 @@ const Footer = () => {
           />
         </a>
       
-      <p style={{ color: '#F5EFEB' }}>
-        &copy; <span id="current-year"></span> Hera Sadikaj. All rights reserved.
-      </p>
+        <p style={{ color: '#F5EFEB' }}>
+          &copy; {currentYear} Hera Sadikaj. All rights reserved.
+        </p>
       </div> 
     </footer>
   );
